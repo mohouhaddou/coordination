@@ -1,0 +1,11 @@
+# Ignorer l'environnement virtuel
+.venv/
+
+# Ignorer fichiers temporaires / de sortie
+*.txt
+*.xls
+*.log
+
+# Ignorer caches Python
+__pycache__/
+*.pyc
