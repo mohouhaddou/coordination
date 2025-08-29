@@ -1,11 +1,53 @@
-# Ignorer l'environnement virtuel
+# --- Environnements virtuels ---
 .venv/
+venv/
+ENV/
+env/
 
-# Ignorer fichiers temporaires / de sortie
+# --- Python cache et compilés ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Fichiers temporaires / logs ---
+*.log
+*.pot
+*.tmp
+*.swp
+*.swo
+
+# --- Fichiers de sortie ---
 *.txt
 *.xls
-*.log
+*.csv
+*.out
 
-# Ignorer caches Python
-__pycache__/
-*.pyc
+# --- Configs locales ---
+*.env
+*.ini
+*.cfg
+
+# --- IDE / éditeurs ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS fichiers temporaires ---
+.DS_Store
+Thumbs.db
+
+# --- Tests ---
+.coverage
+.pytest_cache/
+htmlcov/
+
+# --- Streamlit cache ---
+.streamlit/
+
+# --- Bases de données locales ---
+*.db
+*.sqlite3
+
+# --- Autres à ignorer si générés ---
+output/
+inputs/tmp/
