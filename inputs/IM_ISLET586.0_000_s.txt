@@ -1,0 +1,80 @@
+Calculation Mode         Interfering Transmitter    Mixed 
+Radio Service            TV / DVB-T Broadcast
+Status considered        G0D;PNF;PT2;T2;DES;WRK
+ 
+General Data             
+
+Program Version          CHIRplus_BC V 7.6.1.1
+Calculated               27/08/25 11:48
+User Name                sysadmin
+Filename                 C:\Chirplus\CHIRplus_BC70\DATABASES\TV_WDB\TextFiles\IM_ISLET586.0_000.txt
+Calculation Time [s]     97
+CPU Usage                Internal
+
+Field Strength Calculation Settings
+
+Model                    ITU-R 1546-6 Terrain
+Rx Height [m]            10.0
+Rx Polarisation          Matched
+Use Morpho data          not in use
+Topo Map                 C:\Chirplus\CHIRplus_BC70\Carto_DIT\CARTO\Maroc_100m_Ext\dtm
+Ignore Tx Site Height    not in use
+Tx Topo Height           0.0
+
+Time Prob. Steady [%]    50
+Loc. Prob. Steady [%]    50
+Time Prob. Tropo [%]     1
+Loc. Prob. Tropo [%]     50
+Land-Sea Disc.(ITU Cold) not in use
+TX Clearance Angle       in use
+Rx Clearance Angle       in use
+K-Factor                 1.33333
+Max. Dist. from Rx [km]  16.00
+Adj. for Diff. Clim. Reg.in use
+Cluttered Tx Correction  in use
+Tropo Scatter Corr.      not in use
+Propagation Zone         map
+dN Steady                -43.3
+
+Calculation macro settings
+
+E_min from TX            in use
+CH97 Ref Pr. Ratios      not in use
+
+Calculation macro options
+
+Reference DB             TX working DB
+Calculate with DB        TX info DB
+Overrule check           not in use
+Special status           not in use
+Reference country        MRC
+Interf. visible          20
+Interf. calculated       20
+Interf. considered       40
+E_nuisance_min           20.0
+Additional TPs           not in use
+Transm. related TPs      not in use
+Only marked TX           not in use
+
+
+______________________________________________________________________________________________________________
+Interf. Transmit. : ISLETA LA                
+Frequency/MHz     :  586.000    Chan.  :   35
+MaxERP kW / dBkW  :    7.5858 /   8.800      
+Longit. / Latit.  : 015W25 14  / 28N09 39  
+Heff max          :  187        Country: CNR   
+Polarisation      :    H        OS     : 233
+Antenna Dir       :    D        Service: DVB-T   
+Antenna Height / m:   52.0      Antenna: Internal (36)
+Offset            :             System : C2   
+Offsettype        :    U        SFN-ID : GC35   
+Polarization discr. of -10/-9 dB in use (limited to max  -16 dB if both ATD and PD are used !)
+Antenna Discrimination in use
+
+Coordination required with: (E), AOE, CNR, MTN
+Propagation correction of 13.0 dB used for interfered DIGITAL stations
+
+ ENU  OS  TRANSMITTER           DIS   AZM   Z% DIR  LONGITUDE   LATITUDE  E1KW  ERP   PR  IVH   ATD  f/MHz   DF  CHA HEFF CTY POL PD   SFNID    OFF OT S   TS  PROGRAM          REMARKS
+ 25.1 DES ESSAOUIRA            661.7  54.6   0   D  009W44 00   31N29 32  18.3 -31.2  25    0   0.0 586.00     0  35  212 MRC   H   0                N C3G  D                   
+ 25.1 G0D AGADIR OUFELLA       615.9  64.4   0   D  009W37 32   30N25 54  23.3 -31.2  20    0   0.0 586.00     0  35  212 MRC   H   0             0  U C2   D                   
+ 

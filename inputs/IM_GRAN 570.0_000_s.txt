@@ -1,0 +1,88 @@
+Calculation Mode         Interfering Transmitter    Mixed 
+Radio Service            TV / DVB-T Broadcast
+Status considered        G0D;PNF;PT2;T2;DES;WRK
+ 
+General Data             
+
+Program Version          CHIRplus_BC V 7.6.1.1
+Calculated               27/08/25 11:48
+User Name                sysadmin
+Filename                 C:\Chirplus\CHIRplus_BC70\DATABASES\TV_WDB\TextFiles\IM_GRAN 570.0_000.txt
+Calculation Time [s]     99
+CPU Usage                Internal
+
+Field Strength Calculation Settings
+
+Model                    ITU-R 1546-6 Terrain
+Rx Height [m]            10.0
+Rx Polarisation          Matched
+Use Morpho data          not in use
+Topo Map                 C:\Chirplus\CHIRplus_BC70\Carto_DIT\CARTO\Maroc_100m_Ext\dtm
+Ignore Tx Site Height    not in use
+Tx Topo Height           0.0
+
+Time Prob. Steady [%]    50
+Loc. Prob. Steady [%]    50
+Time Prob. Tropo [%]     1
+Loc. Prob. Tropo [%]     50
+Land-Sea Disc.(ITU Cold) not in use
+TX Clearance Angle       in use
+Rx Clearance Angle       in use
+K-Factor                 1.33333
+Max. Dist. from Rx [km]  16.00
+Adj. for Diff. Clim. Reg.in use
+Cluttered Tx Correction  in use
+Tropo Scatter Corr.      not in use
+Propagation Zone         map
+dN Steady                -43.3
+
+Calculation macro settings
+
+E_min from TX            in use
+CH97 Ref Pr. Ratios      not in use
+
+Calculation macro options
+
+Reference DB             TX working DB
+Calculate with DB        TX info DB
+Overrule check           not in use
+Special status           not in use
+Reference country        MRC
+Interf. visible          20
+Interf. calculated       20
+Interf. considered       40
+E_nuisance_min           20.0
+Additional TPs           not in use
+Transm. related TPs      not in use
+Only marked TX           not in use
+
+
+______________________________________________________________________________________________________________
+Interf. Transmit. : GRAN CANARIA             
+Frequency/MHz     :  570.000    Chan.  :   33
+MaxERP kW / dBkW  :    6.0256 /   7.800      
+Longit. / Latit.  : 015W25 14  / 28N09 39  
+Heff max          :  188        Country: CNR   
+Polarisation      :    H        OS     : 233
+Antenna Dir       :    D        Service: DVB-T   
+Antenna Height / m:   48.0      Antenna: Internal (36)
+Offset            :             System : C5   
+Offsettype        :    U        SFN-ID :    
+Polarization discr. of -10/-9 dB in use (limited to max  -16 dB if both ATD and PD are used !)
+Antenna Discrimination in use
+
+Coordination required with: (E), AOE, CNR, MDR, MRC, MTN
+Propagation correction of 13.0 dB used for interfered DIGITAL stations
+
+ ENU  OS  TRANSMITTER           DIS   AZM   Z% DIR  LONGITUDE   LATITUDE  E1KW  ERP   PR  IVH   ATD  f/MHz   DF  CHA HEFF CTY POL PD   SFNID    OFF OT S   TS  PROGRAM          REMARKS
+ 63.5 PNF Tarfaya              246.0  95.0   0   D  012W55 32   27N56 38  51.7 -22.2  21    0   0.0 570.00     0  33  219 MRC   H   0 laayoune3   0  U C3G  D  MUX2             
+ 63.4 PNF LAAYOUNE             247.7 116.7   0   D  013W11 00   27N08 36  51.6 -22.2  21    0   0.0 570.00     0  33  219 MRC   H   0 laayoune3      U C3G  D  MUX2             
+ 62.4 G0D TARFAYA              247.6  95.0   0   D  012W54 34   27N56 33  51.6 -22.2  20    0   0.0 570.00     0  33  219 MRC   H   0             0  U C2   D                   
+ 45.7 G0D FOGO                 539.0  76.3   0   D  010W01 22   29N12 00  34.9 -22.2  20    0   0.0 570.00     0  33  219 MRC   H   0             0  U C2   D                   
+ 41.0 G0D GUELMIM              536.1  77.9   0   D  010W01 29   29N04 00  30.2 -22.2  20    0   0.0 570.00     0  33  219 MRC   H   0             0  U C2   D                   
+ 37.3 G0D SIDI IFNI            529.3  73.9   0   D  010W10 08   29N22 42  26.5 -22.2  20    0   0.0 570.00     0  33  219 MRC   H   0             0  U C2   D                   
+ 34.5 PNF TAGHAZOUT            614.3  63.1   0   D  009W42 04   30N32 44  22.7 -22.2  21    0   0.0 570.00     0  33  219 MRC   H   0             0  N C3G  D  MUX2             
+ 25.1 G0D IMSOUANE             629.3  60.7   0   D  009W40 24   30N48 41  14.3 -22.2  20    0   0.0 570.00     0  33  219 MRC   H   0             0  U C2   D                   
+ 21.9 G0D Oualidia             795.3  48.7   0   D  009W02 14   32N44 07  10.1 -22.2  21    0   0.0 570.00     0  33  219 MRC   H   0             0  U      D                   
+ 21.9 PNF Oualidia             795.3  48.7   0   D  009W02 14   32N44 07  10.1 -22.2  21    0   0.0 570.00     0  33  219 MRC   H   0             0  N C3G  D  MUX2             
+ 

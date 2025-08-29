@@ -1,0 +1,92 @@
+Calculation Mode         Interfering Transmitter    Mixed 
+Radio Service            TV / DVB-T Broadcast
+Status considered        G0D;PNF;PT2;T2;DES;WRK
+ 
+General Data             
+
+Program Version          CHIRplus_BC V 7.6.1.1
+Calculated               27/08/25 11:48
+User Name                sysadmin
+Filename                 C:\Chirplus\CHIRplus_BC70\DATABASES\TV_WDB\TextFiles\IM_LANZA514.0_000.txt
+Calculation Time [s]     99
+CPU Usage                Internal
+
+Field Strength Calculation Settings
+
+Model                    ITU-R 1546-6 Terrain
+Rx Height [m]            10.0
+Rx Polarisation          Matched
+Use Morpho data          not in use
+Topo Map                 C:\Chirplus\CHIRplus_BC70\Carto_DIT\CARTO\Maroc_100m_Ext\dtm
+Ignore Tx Site Height    not in use
+Tx Topo Height           0.0
+
+Time Prob. Steady [%]    50
+Loc. Prob. Steady [%]    50
+Time Prob. Tropo [%]     1
+Loc. Prob. Tropo [%]     50
+Land-Sea Disc.(ITU Cold) not in use
+TX Clearance Angle       in use
+Rx Clearance Angle       in use
+K-Factor                 1.33333
+Max. Dist. from Rx [km]  16.00
+Adj. for Diff. Clim. Reg.in use
+Cluttered Tx Correction  in use
+Tropo Scatter Corr.      not in use
+Propagation Zone         map
+dN Steady                -43.3
+
+Calculation macro settings
+
+E_min from TX            in use
+CH97 Ref Pr. Ratios      not in use
+
+Calculation macro options
+
+Reference DB             TX working DB
+Calculate with DB        TX info DB
+Overrule check           not in use
+Special status           not in use
+Reference country        MRC
+Interf. visible          20
+Interf. calculated       20
+Interf. considered       40
+E_nuisance_min           20.0
+Additional TPs           not in use
+Transm. related TPs      not in use
+Only marked TX           not in use
+
+
+______________________________________________________________________________________________________________
+Interf. Transmit. : LANZAROTE                
+Frequency/MHz     :  514.000    Chan.  :   26
+MaxERP kW / dBkW  :    0.5012 /  -3.000      
+Longit. / Latit.  : 013W35 39  / 29N00 06  
+Heff max          :  415        Country: CNR   
+Polarisation      :    H        OS     : 233
+Antenna Dir       :    D        Service: DVB-T   
+Antenna Height / m:   26.0      Antenna: Internal (36)
+Offset            :             System : C5   
+Offsettype        :    U        SFN-ID :    
+Polarization discr. of -10/-9 dB in use (limited to max  -16 dB if both ATD and PD are used !)
+Antenna Discrimination in use
+
+Coordination required with: (E), AOE, CNR, MDR, MRC
+Propagation correction of 13.0 dB used for interfered DIGITAL stations
+
+ ENU  OS  TRANSMITTER           DIS   AZM   Z% DIR  LONGITUDE   LATITUDE  E1KW  ERP   PR  IVH   ATD  f/MHz   DF  CHA HEFF CTY POL PD   SFNID    OFF OT S   TS  PROGRAM          REMARKS
+ 64.8 G0D FOGO                 347.7  85.4   0   D  010W01 21   29N12 17  44.6 -12.8  20    0   0.0 514.00     0  26  406 MRC   H   0             0  U C2   D                   
+ 54.9 DES ESSAOUIRA            462.7  52.3   0   D  009W44 00   31N29 32  25.9  -9.0  25    0   0.0 514.00     0  26  279 MRC   H   0                N C3G  D                   
+ 50.1 G0D TIZNIT               381.7  77.6   0   D  009W44 00   29N41 00  31.3 -14.3  20    0   0.0 514.00     0  26  376 MRC   H   0             0  U C2   D                   
+ 39.1 G0D ESSAOUIRA JBEL LAHDI 499.9  51.6   0   D  009W27 11   31N43 57  15.1  -9.0  20    0   0.0 514.00     0  26  269 MRC   H   0             0  U C2   D                   
+ 38.0 G0D ESSAOUIRA            461.0  52.8   0   D  009W43 23   31N27 10  14.0  -9.0  20    0   0.0 514.00     0  26  285 MRC   H   0             0  U C2   D                   
+ 37.9 G0D EL OUALIDIA          601.0  45.2   0   D  009W02 16   32N44 09  13.9  -9.0  20    0   0.0 514.00     0  26  219 MRC   H   0             0  U C2   D                   
+ 35.0 G0D TARFAYA              153.8 156.3   0   D  012W58 00   27N44 00  61.4  -9.4 -30    0   0.0 522.00    -1  27  459 MRC   H   0             0  U C2   D                   
+ 27.5 PNF Zag                  434.0 103.4   0   D  009W17 30   28N01 38   4.2 -10.7  21    0   0.0 514.00     0  26  445 MRC   H   0    assa26   0  U C3G  D  MUX2             
+ 26.5 G0D ZAG                  434.0 103.4   0   D  009W17 30   28N01 38   4.2 -10.7  20    0   0.0 514.00     0  26  445 MRC   H   0             0  U C2   D                   
+ 25.4 G0D Tantan plage watéa   227.3 104.0   0   D  011W20 14   28N29 21  53.2 -10.8 -30    0   0.0 506.00     1  25  445 MRC   H   0             0  U C3   D                   
+ 25.4 PNF Tantan plage watéa   227.9 103.7   0   D  011W19 40   28N29 47  53.2 -10.7 -30    0   0.0 506.00     1  25  445 MRC   H   0  tantan25   0  U C3G  D                   
+ 25.2 PNF Assa                 407.9  95.2   0   D  009W25 55   28N36 15   1.6 -10.5  21    0   0.0 514.00     0  26  430 MRC   H   0    assa26   0  U C3G  D  MUX2             
+ 24.3 G0D TANTAN               243.7 102.2   0   D  011W09 21   28N31 00  51.8 -10.4 -30    0   0.0 506.00     1  25  444 MRC   H   0             0  U C2   D                   
+ 23.4 G0D ASSA                 407.4  95.2   0   D  009W26 15   28N36 10   0.9 -10.5  20    0   0.0 514.00     0  26  430 MRC   H   0             0  U C2   D                   
+ 
